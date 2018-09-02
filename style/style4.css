@@ -1,0 +1,1012 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 2s;
+}
+
+
+
+.clr {
+    clear: both;
+}
+
+h2,
+h3,
+h4 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.home {
+    background-image: url(../image/main-img.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.blur {
+    background-color: rgba(0, 0, 0, .5);
+    height: 100%;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.nav ul {
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, .5);
+    overflow: hidden;
+    padding: 8px 10% 0 10%;
+}
+
+.nav ul li {
+    float: right;
+    padding: 20px;
+    margin-top: 8px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.nav ul li a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+}
+
+.nav .logo img {
+    height: 35px;
+}
+
+.nav .logo {
+    float: left;
+    margin: 0;
+
+
+}
+
+.home .caption {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 221px 0;
+}
+
+.home .caption h4 {
+    color: white;
+
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.home .caption h2 {
+    font-weight: bolder;
+    font-size: 70px;
+    color: #FFFFFF;
+    letter-spacing: -1px;
+    margin: 25px 0;
+    position: relative;
+
+}
+
+.home .caption h2:after {
+    content: " Web developer|";
+    animation-name: karem;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes karem {
+    0% {
+        content: "Web developer|"
+    }
+    2.5% {
+        content: "Web develope|"
+    }
+    5% {
+        content: "Web develop|"
+    }
+    7.5% {
+        content: "Web develo|"
+    }
+    10% {
+        content: "Web devel|"
+    }
+    12.5% {
+        content: "Web deve|"
+    }
+    15% {
+        content: "Web dev|"
+    }
+    17.5% {
+        content: "Web de|"
+    }
+    20% {
+        content: "Web d|"
+    }
+    22.5% {
+        content: "Web |"
+    }
+    25% {
+        content: "Web|"
+    }
+    27.5% {
+        content: "We|"
+    }
+    30% {
+        content: "W|"
+    }
+    32.5% {
+        content: "|"
+    }
+    35% {
+        content: "D|"
+    }
+    37.5% {
+        content: "De|"
+    }
+    40% {
+        content: "Des|"
+    }
+    42.5% {
+        content: "Desi|"
+    }
+    45% {
+        content: "Desig|"
+    }
+    47.5% {
+        content: "Desige|"
+    }
+    50% {
+        content: "Desiger|"
+    }
+    52.5% {
+        content: "Desige|"
+    }
+    55% {
+        content: "Desig|"
+    }
+    57.5% {
+        content: "Desi|"
+    }
+    60% {
+        content: "Des|"
+    }
+    62.5% {
+        content: "De|"
+    }
+    65% {
+        content: "D|"
+    }
+    67.5% {
+        content: "|"
+    }
+    70% {
+        content: "W|"
+    }
+    72.5% {
+        content: "We|"
+    }
+    75% {
+        content: "Web|"
+    }
+    77.5% {
+        content: "Web |"
+    }
+    80% {
+        content: "Web d|"
+    }
+    82.5% {
+        content: "Web de|"
+    }
+    85% {
+        content: "Web dev|"
+    }
+    87.5% {
+        content: "Web deve|"
+    }
+    90% {
+        content: "Web devel|"
+    }
+    92.5% {
+        content: "Web develo|"
+    }
+    95% {
+        content: "Web develop|"
+    }
+    97.5% {
+        content: "Web develope|"
+    }
+    100% {
+        content: "Web developer|"
+    }
+}
+
+.home .caption p {
+    color: white;
+    font-size: 17px;
+    line-height: 32px;
+    opacity: 0.7;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+
+.about .contain {
+    width: 90%;
+    margin: auto;
+}
+
+.about .head {
+    text-align: center;
+
+    padding: 60px 0;
+}
+
+.about .head p {
+    color: white;
+    background-color: #1957f3;
+    text-align: center;
+    margin: auto;
+    width: 10%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.about .head p:before {
+    content: "";
+    width: 21px;
+    height: 21px;
+    background-color: white;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 0;
+    left: -10px;
+}
+
+.about .head p:after {
+    content: "";
+    width: 21px;
+    height: 21px;
+    background-color: white;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 0;
+    right: -10px;
+}
+
+.about .head h3 {
+    position: relative;
+}
+
+.about .head h3:after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 30px;
+    bottom: -45px;
+    left: 50%;
+    background-color: #1957f3;
+
+}
+
+.about .contain .dis .pic {
+    float: left;
+    width: 45%
+}
+
+.about .contain .dis .pic img {
+    width: 65%;
+}
+
+
+.about .contain .dis .words {
+    float: left;
+    width: 55%;
+    padding-top: 20px;
+}
+
+.about .contain .dis .words h4 {
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 30px;
+
+}
+
+.about .contain .dis .words p {
+    width: 80%;
+    padding-bottom: 30px;
+    line-height: 1.6;
+    color: #777;
+    border-bottom: 1px solid #f1f1f1
+}
+
+.about .contain .dis .words ul {
+    list-style-type: none;
+    padding-top: 15px;
+}
+
+.about .contain .words ul li {
+    float: left;
+    width: 50%;
+    padding: 15px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about .contain .words .name .btn {
+    padding-top: 10px;
+}
+
+.about .contain .words .name .btn button {
+    padding: 15px 20px;
+    border: 1px solid #1957f3;
+    background-color: white;
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.about .contain .words .name .btn .btn1 {
+    background-color: #1957f3;
+    color: white;
+    margin-right: 8px;
+    transition: all .1s;
+}
+
+.about .contain .words .name .btn .btn1:hover {
+    color: black;
+    background-color: white;
+
+}
+
+
+.process {
+    background-color: #f7f7f7;
+    overflow: hidden;
+    padding: 100px;
+}
+
+.process .contain {
+    margin: auto;
+    overflow: hidden;
+    width: 90%;
+    overflow: hidden;
+}
+
+.process .contain .parag {
+    width: 50%;
+    float: left;
+}
+
+.process .contain .rang {
+    width: 50%;
+    float: right;
+    padding-left: 50px;
+}
+
+.process .contain .parag h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.process .contain .parag p {
+    line-height: 1.6;
+    color: #777;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 30px 0;
+}
+
+.process .contain .parag button {
+    padding: 15px 20px;
+    border: 1px solid #1957f3;
+    color: white;
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #1957f3;
+    transition: all 1s;
+
+}
+
+.process .contain .parag button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.process .contain .rang progress {
+    width: 80%;
+    height: 3px;
+}
+
+
+.process .contain .rang h6 {
+    padding: 8px 0 0 0;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    width: 70%;
+
+}
+
+.process .contain .rang span {
+    color: #f7f7f7;
+}
+
+.service .contain {
+    margin: auto;
+    width: 90%;
+    padding: 50px 0;
+    overflow: auto;
+}
+
+.service .head p {
+    color: white;
+    background-color: #1957f3;
+    text-align: center;
+    margin: auto;
+    width: 11%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    position: relative;
+
+    margin-bottom: 10px;
+}
+
+.service .head p:before {
+    content: "";
+    width: 21px;
+    height: 21px;
+    background-color: white;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 0;
+    left: -10px;
+}
+
+.service .head p:after {
+    content: "";
+    width: 21px;
+    height: 21px;
+    background-color: white;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 0;
+    right: -10px;
+}
+
+.service .contain .head h3 {
+    text-align: center;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.service .contain .head h3:after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 30px;
+    bottom: 4px;
+    left: 50%;
+    background-color: #1957f3;
+}
+
+.service .contain .dis .con {
+    border: 1px solid #f7f7f7;
+    ;
+    float: left;
+    width: 32%;
+    margin: 7px;
+    padding: 40px 15px;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, .1)
+}
+
+.service .contain .dis h4 {
+    padding-bottom: 8px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+
+.service .contain .dis p {
+    padding-top: 10px;
+    line-height: 1.6;
+    color: #777;
+    font-weight: 400;
+    font-size: 14px;
+    width: 90%;
+}
+
+.hire {
+    background-image: url(../image/bg-3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.hire .contain {
+    text-align: center;
+    background-color: rgba(0, 0, 0, .7);
+    height: 100%;
+
+}
+
+.hire h2 {
+    padding: 100px 0 50px 0;
+    color: #fff;
+    font-size: 52px;
+    font-weight: bolder;
+}
+
+.hire .contain button {
+    padding: 15px 20px;
+    border: 1px solid #444;
+    color: white;
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(256, 256, 256, .2);
+    font-weight: 600;
+    margin-bottom: 80px;
+    transition: all 1s;
+}
+
+.hire .contain button:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid #1957f3;
+
+}
+
+.work {
+    overflow: hidden;
+    padding-bottom: 80px;
+    text-align: center;
+
+}
+
+.work .contain {
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.work .contain .head {
+    padding-bottom: 30px;
+
+}
+
+.work .head p {
+    color: white;
+    background-color: #1957f3;
+    text-align: center;
+    margin: auto;
+    width: 14%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    position: relative;
+
+    margin-bottom: 10px;
+}
+
+.work .head p:before {
+    content: "";
+    width: 21px;
+    height: 21px;
+    background-color: white;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 0;
+    left: -10px;
+}
+
+.work .head p:after {
+    content: "";
+    width: 21px;
+    height: 21px;
+    background-color: white;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 0;
+    right: -10px;
+}
+
+.work .contain .head h3 {
+    text-align: center;
+    padding: 30px 0 80px 0;
+    position: relative;
+}
+
+.work .contain .head h3:after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 30px;
+    bottom: 37px;
+    left: 50%;
+    background-color: #1957f3;
+
+}
+
+.work .contain .head .choose {
+    margin: auto;
+    border-radius: 20px;
+    width: 31.4%;
+    border: 1px dotted #e1e1e1;
+}
+
+.work .contain .head button {
+    color: #777;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.work .contain .head .only {
+    background-color: #1957f3;
+    color: white;
+}
+
+
+.work .contain .dis .cont {
+    float: left;
+    width: 33.3%;
+    overflow: hidden;
+    padding: 10px;
+
+
+}
+
+.work .contain .dis .con img {
+    width: 100%;
+}
+
+.work .contain .dis .con {
+    position: relative;
+    overflow: hidden;
+
+
+
+}
+
+.work .contain .dis .hov .cc {
+    text-align: right;
+    margin-left: auto;
+    width: 60%;
+    margin: 10% 50% 90% 35%;
+    position: relative;
+    overflow: hidden;
+}
+
+.work .contain .dis .con h2 {
+    text-align: center;
+    visibility: hidden;
+    color: white;
+    font-weight: 600;
+    transition-duration: .2s;
+    font-size: 22px;
+
+
+
+}
+
+.work .contain .dis .hov .cc .shov {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    transition: all 1s;
+
+
+}
+
+
+
+.work .contain .dis div .hov {
+    text-align: right;
+    background-color: rgba(0, 0, 0, .9);
+    color: white;
+    position: absolute;
+    top: 0px;
+    right: 102%;
+    width: 100%;
+    height: 50%;
+    transition: all .8s;
+}
+
+.work .contain .dis div .hov2 {
+    background-color: rgba(0, 0, 0, .9);
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 102%;
+    width: 100%;
+    height: 50%;
+    transition: all .8s;
+}
+
+.work .contain .dis .con:hover .hov {
+    right: 0;
+}
+
+.work .contain .dis .con:hover .hov2 {
+    left: 0;
+}
+
+.work .contain .dis .con:hover .shov {
+    left: -100%;
+}
+
+.work .contain .dis .con:hover h2 {
+    visibility: visible;
+}
+
+.work .contain .dis .con:hover img {
+    transform: scale(1.1, 1.1)
+}
+
+.test {
+    overflow: hidden;
+    background-image: url(../image/bg-2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.test .blur {
+
+    background-color: rgba(0, 0, 0, .7);
+    height: 100%;
+    padding: 84px;
+
+}
+
+.test .contain {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+.test .contain .head {
+    color: white;
+    padding: 20px 0 60px 0;
+}
+
+.test .head p {
+    color: white;
+    background-color: #1957f3;
+    text-align: center;
+    margin: auto;
+    width: 20%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    position: relative;
+    border-radius: 8px;
+
+    margin-bottom: 10px;
+}
+
+.test .contain .head h3 {
+    position: relative;
+}
+
+.test .contain .head h3:after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 30px;
+    bottom: -40px;
+    left: 50%;
+    background-color: #1957f3;
+}
+
+.test .contain .dis {
+    margin: auto;
+    overflow: auto;
+    width: 70%;
+    background: linear-gradient(-90deg, transparent, rgba(256, 256, 256, .1), transparent);
+    text-align: center;
+    padding: 80px 0px;
+}
+
+.test .contain .dis p {
+    margin: auto;
+    padding: 20px;
+    width: 80%;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+}
+
+.test .contain .dis h5 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.test .contain .dis h6 {
+    color: #ccc;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.blog .contain {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding: 30px 0 70px 0;
+    overflow: hidden;
+}
+
+.blog .contain .head {
+    padding: 50px 0 60px 0;
+}
+
+.blog .head p {
+    color: white;
+    background-color: #1957f3;
+    text-align: center;
+    margin: auto;
+    width: 14%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    position: relative;
+
+    margin-bottom: 10px;
+}
+
+.blog .head p:before {
+    content: "";
+    width: 21px;
+    height: 21px;
+    background-color: white;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 0;
+    left: -10px;
+}
+
+.blog .head p:after {
+    content: "";
+    width: 21px;
+    height: 21px;
+    background-color: white;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 0;
+    right: -10px;
+}
+
+.blog .contain .head h3 {
+    position: relative;
+}
+
+.blog .contain .head h3:after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 30px;
+    bottom: -40px;
+    left: 50%;
+    background-color: #1957f3;
+}
+
+.blog .contain .dis {
+    overflow: hidden;
+}
+
+.blog .contain .dis .outer {
+    padding: 10px;
+    width: 33.33%;
+    float: left;
+}
+
+.blog .contain .dis .pic {
+    position: relative;
+    text-align: left;
+    overflow: hidden;
+}
+
+.blog .contain .dis .pic .im {
+    overflow: hidden;
+}
+
+
+.blog .contain .dis .pic img {
+    width: 100%;
+    transition: all 1s;
+
+}
+
+.blog .contain .dis .pic img:hover {
+    transform: rotateZ(360deg);
+}
+
+.blog .contain .dis .pic .add a {
+    background-color: #1957f3;
+    padding: 7px 19px;
+    color: #fff;
+    font-style: italic;
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
+.add {
+    position: absolute;
+    background-color: #1957f3;
+    top: 230px;
+    left: 0;
+
+}
+
+
+
+
+.blog h4 {
+    padding: 25px 0;
+}
+
+.blog p {
+    line-height: 1.6;
+    color: #777;
+}
+
+.footer {
+    background-color: #212121;
+    padding: 100px 0;
+}
+
+.footer .contain {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+.footer .contain div {
+    padding-bottom: 40px;
+}
+
+.footer .contain div h6 {
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
